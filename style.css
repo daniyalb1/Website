@@ -1,0 +1,57 @@
+/* 
+  style.css
+  Controls colors, fonts, spacing, and layout.
+*/
+
+/* Clears default browser margins so everything lines up neatly */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sets an easy-to-read font and comfortable page width */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;        /* centers the whole page */
+  padding: 1.5rem;
+  color: #333;
+}
+
+/* Header: main title, tagline, and menu */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Menu links sit side by side */
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Each main content section has space above it */
+section {
+  margin: 2rem 0;
+}
+
+/* Simple footer bar */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}

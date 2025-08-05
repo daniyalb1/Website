@@ -1,0 +1,63 @@
+<!--
+  index.html
+  The main web page.  
+  Links to style.css for appearance and script.js for small interactivity.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your Business Name</title>
+
+  <!-- Tells the browser where the visual styles live -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Top banner with name, short tagline, and simple menu -->
+  <header>
+    <h1>The Burger Joint</h1>
+    <p class="tagline">What you do in one short sentence</p>
+
+    <!-- Menu links jump to sections further down the page -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#hours">Hours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section: quick intro or list of services -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Describe your main product or service in plain language.</p>
+    </section>
+
+    <!-- Section: opening times -->
+    <section id="hours">
+      <h2>Hours</h2>
+      <ul>
+        <li>Mon – Fri: 9 am – 5 pm</li>
+        <li>Sat: 10 am – 2 pm</li>
+        <li>Sun: Closed</li>
+      </ul>
+    </section>
+
+    <!-- Section: basic contact details -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Phone: (555) 555-5555</p>
+    </section>
+  </main>
+
+  <!-- Bottom bar with automatic year -->
+  <footer>
+    <p>&copy; <span id="year"></span> Your Business Name</p>
+  </footer>
+
+  <!-- Tells the browser where the small helper script lives -->
+  <script src="script.js"></script>
+</body>
+</html>
